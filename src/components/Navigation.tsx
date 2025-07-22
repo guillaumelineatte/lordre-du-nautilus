@@ -51,7 +51,7 @@ export const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <img src="/logo_Asso.png" alt="Logo L'Ordre du Nautilus" className="h-8 w-8 rounded-full"
+            <img src={`${import.meta.env.BASE_URL}logo_Asso.png`} alt="Logo L'Ordre du Nautilus" className="h-8 w-8 rounded-full"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
             <span className="font-bold text-xl text-gray-900 hidden sm:block">L'Ordre du Nautilus</span>
           </div>

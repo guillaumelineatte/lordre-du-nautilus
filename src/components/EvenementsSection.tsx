@@ -12,7 +12,7 @@ export const EvenementsSection = () => {
   const evenements = [
     {
       title: "Tournoi hebdomadaire",
-      image: "/assets/events/tournoi.jpg"
+      image: `${import.meta.env.BASE_URL}assets/events/tournoi.jpg`
     }
   ];
 

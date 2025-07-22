@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
                       <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <img src="/logo_Asso.png" alt="Logo L'Ordre du Nautilus" className="h-8 w-8 rounded-full" />
+            <img src={`${import.meta.env.BASE_URL}logo_Asso.png`} alt="Logo L'Ordre du Nautilus" className="h-8 w-8 rounded-full" />
             <span className="font-bold text-xl">L'Ordre du Nautilus</span>
           </div>
 

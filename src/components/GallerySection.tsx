@@ -12,11 +12,11 @@ export const GallerySection = () => {
   const galleryImages = [
      {
        title: "Tournoi Win-A-Mat Yu-Gi-Oh! au Warpzone",
-       image: "assets/gallery/photoWarp2.jpg"
+       image: `${import.meta.env.BASE_URL}assets/gallery/photoWarp2.jpg`
      },
      {
        title: "Tournoi Yu-Gi-Oh! au Warpzone",
-       image: "assets/gallery/photoWarp.jpg"
+       image: `${import.meta.env.BASE_URL}assets/gallery/photoWarp.jpg`
      },
     // {
     //   title: "Conférence sur la conservation des océans",
